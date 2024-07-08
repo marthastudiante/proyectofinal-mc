@@ -1,0 +1,125 @@
+/*documento cs*/
+*{margin: 0;
+  padding: 0;}
+
+body {background-color: #1b1a1ae0;}
+
+footer {background-color: black;}
+
+h1, h2, h3, h4, p {color: rgb(185, 180, 180);}
+h1{ font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+     font-size: 1em;}
+
+h2{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 1em;}
+
+h3, h4 { font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      }
+ h3{font-size: 10px;}
+p{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 9px;}
+
+.insentivo{text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0 }
+.genero{background-color: rgba(22, 22, 22, 0.753);
+        }
+
+.nombre {color: white;
+        font-size: 10px;}
+
+.menu{display: flex;
+       justify-content:space-between;}
+
+.portada{display: flex; 
+          justify-content: center;
+           margin: 30px;}
+.texto{text-align: justify;
+       margin: 50px;}
+
+.prime{margin: 5px;}
+
+.star{ color: whitesmoke;
+      display: flex;
+     justify-content: center;}
+
+.final{text-align: justify;
+       padding: 20px;}
+
+.vinilos{display: flex;}
+
+.promociones{display: flex;}
+
+.disco{margin: 5%;
+       text-align: center;}
+
+.selec {display:flex ;
+        justify-content: flex-end;}
+
+  .env{display: flex;
+       justify-content:center ;
+       font-size: 3em;}
+
+.comentario{display: flex;
+            justify-content: space-between;}
+
+.puntajer{margin: 5px;
+           display: flex;
+           justify-content: center;}
+
+.logo {display: flex;
+  justify-content: center;
+   margin: 30px;}
+
+.disco{margin: 10px;}
+
+.clic{margin:5px ;}
+
+a{color: rgb(230, 226, 226);}
+
+a :hover{color: black;}
+
+.bi {margin: 5px;}
+
+.comen {margin: 5px;}
+
+.imgdis { width:120px ;}
+
+.disvi {width: 70px;}
+
+/* media queris desde 800px en adelante */
+@media only screen and (min-width: 800px) {
+  
+h1, h2 {font-size: 2em;}
+h4, h3 {font-size: 1em;}
+.imgdis { width:170px ;}
+p{font-size: 15px;}
+.nombre{font-size: 20px;}
+
+.disvi {width: 170px;}
+}
+
